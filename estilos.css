@@ -1,0 +1,185 @@
+:root{
+    --colorFondoPrincipal: #F3F5FC;
+    --blacos: #f3f5f6;
+    --texto: #052051;
+    --textoAlter: #f4f5f9;
+    --acentoFuerte: #052051;
+    --acentoClaro: #D8DFE8;
+}
+
+/* ///////////  --  HEADER  --  /////////////////////////
+(((((((((((((((((((((()))))))))))))))))))))))))))))))))))*/
+body{
+    background-color: var(--colorFondoPrincipal);
+}
+.header{
+    padding: 50px;
+    width: 50%;
+    position: absolute;
+}
+
+/* /////////////////////////////////////////////////////////
+//////////////  --  MAIN SECTION  --///////////////////////
+((((((((((((((((((((()))))))))))))))))))))))))))))))))))))*/
+
+.contenedor{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 80vh;
+}
+
+.formulario__container{
+    width: 20vw;
+    margin: 0 200px;
+
+}
+
+.text__area{
+    width: 40vw;
+    height: 45vh;
+    background-color: var(--colorFondoPrincipal);
+    outline: none;
+    border: none;
+    margin-top: 140px;
+    font-size: 26px;
+    font-family: sans-serif;
+    color: var(--texto);
+}
+.text__area::placeholder{
+    font-size: 26px;
+    font-family: sans-serif;
+    color: var(--texto);
+    opacity: .6;
+}
+
+.munheco{
+    width: 200px;
+    margin-top: 180px;
+    
+}
+
+.div__texto--encriptado{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 23%;
+    margin-bottom: 0;
+    margin-top: 15px;
+    margin-left: 70px;
+    margin-right: 20px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 20px 1px rgba(128, 128, 128, 0.445);
+    
+
+}
+.div__texto--encriptado h1{
+    font-size: 18px;
+    font-family: sans-serif;
+    width: 70%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.div__texto--encriptado h2{
+    width: 90%;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+    margin-top: -6px;
+    margin-bottom: 150px;
+
+}
+
+/*/////// contenedor de texto ya encriptado///////////////
+/////////////////////////////////////////////////////////*/
+
+
+.div__texto--resultado h3{
+    font-size: 18px;
+    font-family: sans-serif;
+    width: 80%;
+    text-align: justify;
+    color: var(--texto);
+    font-weight: 200;
+    word-wrap: break-word;
+}
+
+
+.div__texto--resultado{
+    align-items: center;
+    display: none;
+    flex-direction: column;
+    background-color: white;
+    width: 23%;
+    height: 93vh;
+    margin-bottom: 0;
+    margin-top: 14px;
+    margin-left: 70px;
+    margin-right: 20px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 20px 1px rgba(128, 128, 128, 0.445);
+    
+
+}
+
+.copiar{
+    position: absolute;
+    font-size: 15px;
+    padding: 16px;
+    border-radius: 12px;
+    border: none;
+    color:var(--acentoFuerte) ;
+    background-color: white;
+    width: 220px;
+    border: solid var(--texto) 1px;
+    margin-top: 550px;
+   
+}
+
+/*//////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////*/
+
+
+.div__botones{
+    margin: 50px;
+    position: absolute;
+    margin-top: 560px;
+    margin-left: 250px;    
+}
+.encriptar{
+    font-size: 15px;
+    padding: 16px;
+    border-radius: 12px;
+    border: none;
+    color: var(--textoAlter);
+    background-color: var(--acentoFuerte);
+    width: 220px;
+    margin: 5px;
+}
+.desencriptar{
+    font-size: 15px;
+    padding: 16px;
+    border-radius: 12px;
+    border: none;
+    color:var(--acentoFuerte) ;
+    background-color:var(--acentoClaro);
+    width: 220px;
+    border: solid var(--texto) 1px;
+}
+
+
+
+
+
+/*  ///////////  --  FOOTER  --  ////////////////////////////
+///////////////////////////////////////////////////////////*/
+
+.footer{
+    background-color: #052051;
+    width: 100vw;
+
+}
